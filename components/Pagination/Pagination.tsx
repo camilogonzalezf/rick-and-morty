@@ -16,6 +16,7 @@ const Pagination: React.FC<PaginationProps> = ({ numberPages, onSelectedPage, se
                         key={numberPage}
                         className={`${numberPage === selectedPage ? styles.buttonActive : styles.buttonInactive}`}
                         onClick={() => onSelectedPage(numberPage)}
+                        data-testid='button'
                     >
                         {numberPage}
                     </div>

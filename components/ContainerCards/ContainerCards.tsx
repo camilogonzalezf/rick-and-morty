@@ -8,7 +8,10 @@ interface ContainerCardsProps {
 
 const ContainerCards: React.FC<ContainerCardsProps> = ({ children, hasElementsToShow }) => {
     return (
-        <div className={`${hasElementsToShow ? styles.containerWithElements : styles.containerWithOutElements}`}>
+        <div
+            className={`${hasElementsToShow ? styles.containerWithElements : styles.containerWithOutElements}`}
+            data-testid='ContainerCards'
+        >
             {children}
         </div>
     );
