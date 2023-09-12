@@ -1,0 +1,7 @@
+.container {
+    @apply bg-yellow-200 flex items-center py-1 px-2 absolute right-5 top-16 rounded-lg border-red-600 border-[1px] transition-opacity duration-1000 ease-in-out
+}
+
+.text {
+    @apply text-xs text-red-600
+}

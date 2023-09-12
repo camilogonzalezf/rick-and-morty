@@ -1,10 +1,14 @@
 import React, { ReactNode } from 'react'; // Importa React y ReactNode
-
 import styles from './ContainerCards.module.css';
 
-const ContainerCards: React.FC<{ children: ReactNode }> = ({ children }) => {
+interface ContainerCardsProps {
+    children: ReactNode,
+    hasElementsToShow: boolean
+}
+
+const ContainerCards: React.FC<ContainerCardsProps> = ({ children, hasElementsToShow }) => {
     return (
-        <div className={styles.container}>
+        <div className={`${hasElementsToShow ? styles.containerWithElements : styles.containerWithOutElements}`}>
             {children}
         </div>
     );

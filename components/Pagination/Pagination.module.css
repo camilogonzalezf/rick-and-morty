@@ -1,0 +1,11 @@
+.container {
+    @apply w-full flex items-center justify-center pb-5
+}
+
+.buttonInactive {
+    @apply bg-gray-500 mx-6 px-2 rounded-xl cursor-pointer text-white
+}
+
+.buttonActive {
+    @apply bg-[#015454] border mx-6 px-2 rounded-xl cursor-pointer text-white
+}

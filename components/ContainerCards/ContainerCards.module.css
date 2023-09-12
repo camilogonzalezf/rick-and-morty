@@ -1,3 +1,7 @@
-.container {
-    @apply p-5 grid grid-cols-3 grid-rows-2 gap-4
+.containerWithElements {
+    @apply p-5 grid grid-cols-3 grid-rows-2 gap-4 w-10/12
+}
+
+.containerWithOutElements {
+    @apply p-5 flex flex-col items-center justify-center
 }
