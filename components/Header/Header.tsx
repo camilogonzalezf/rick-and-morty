@@ -9,7 +9,7 @@ interface HeaderProps {
 const Header: React.FC<HeaderProps> = ({ handleSearchName }) => {
     return (
         <div className={styles.container}>
-            <h1 className={styles.title}>RICK AND MORTY SEARCH</h1>
+            <h1 className={styles.title}>RICK Y MORTY SEARCH</h1>
             <InputSearch onSearch={handleSearchName} />
         </div>
     );

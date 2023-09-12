@@ -1,5 +1,5 @@
 .containerWithElements {
-    @apply p-5 grid grid-cols-3 grid-rows-2 gap-4 w-10/12
+    @apply p-5 grid grid-cols-1 sm:grid-cols-2 gap-4 w-10/12 lg:grid-cols-3
 }
 
 .containerWithOutElements {

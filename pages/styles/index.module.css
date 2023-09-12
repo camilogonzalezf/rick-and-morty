@@ -9,3 +9,7 @@
 .h2 {
     @apply text-[#015454] font-bold text-2xl shadow-lg rounded-2xl p-5 mb-4 text-center
 }
+
+.image {
+    @apply w-11/12 lg:w-5/12
+}

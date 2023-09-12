@@ -28,10 +28,10 @@ const Card = ({ character }: CardProps) => {
                 height={200}
             />
             <div className="">
-                <p> <span className={styles.span}>Name :</span> {character.name}</p>
-                <p><span className={styles.span}>Specie :</span>{character.species}</p>
-                <p><span className={styles.span}>Status :</span>{character.status}</p>
-                <p><span className={styles.span}>Origin :</span>{character.origin.name}</p>
+                <p> <span className={styles.span}>Nombre :</span> {character.name}</p>
+                <p><span className={styles.span}>Especie :</span>{character.species}</p>
+                <p><span className={styles.span}>Estatus :</span>{character.status}</p>
+                <p><span className={styles.span}>Origen :</span>{character.origin.name}</p>
             </div>
         </div>
     )

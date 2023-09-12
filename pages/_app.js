@@ -1,8 +1,8 @@
 import '../styles/globals.css'
 
-import { ApolloClient, InMemoryCache, ApolloProvider, gql } from '@apollo/client';
+import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 
-const client = new ApolloClient({
+const client = new ApolloClient({ // Se configura ApolloClient con la API a leer
   uri: 'https://rickandmortyapi.com/graphql',
   cache: new InMemoryCache(),
 });

@@ -1,3 +1,11 @@
+.inputContainer {
+    @apply p-2 rounded-md w-full md:w-1/4 bg-white flex
+}
+
 .input {
-    @apply p-2 rounded-md
+    @apply w-[80%] outline-none mr-2 text-xl
+}
+
+.button {
+    @apply bg-orange-400 px-2 rounded-xl cursor-pointer font-bold
 }
